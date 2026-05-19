@@ -32,7 +32,7 @@ jobs:
       - name: Commit ASCII artwork
         run: |
           git config --global user.name "SujanaMaddela"
-          git config --global user.email "maddelasujana206@gmail.com@gmail.com"
+          git config --global user.email "maddelasujana206@gmail.com"
           git add ascii_output/art.txt
           git commit -m "Add generated ASCII artwork"
           git push
